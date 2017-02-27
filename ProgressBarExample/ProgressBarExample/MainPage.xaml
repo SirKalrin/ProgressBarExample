@@ -7,5 +7,13 @@
 	<Label Text="Welcome to Xamarin Forms!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+    <StackLayout Orientation="Vertical">
+        <ProgressBar x:Name="PlayerHealthBar" Progress="1.0"></ProgressBar>
+        <ProgressBar x:Name="EnemyHealthBar" Progress="1.0"></ProgressBar>
+        <ProgressBar x:Name="StageBar" Progress="0.0"></ProgressBar>
+        <Button x:Name="Enemy" Clicked="Enemy_OnClicked">Enemy</Button>
+    </StackLayout>
+    
+    
 
 </ContentPage>
